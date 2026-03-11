@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce Customer Satisfaction Analysis (Big Data Project)
+## 🛍️ E-Commerce Customer Satisfaction Analysis (Big Data Project)
 
 This project analyzes and predicts **customer satisfaction in an e-commerce platform** using the **Olist Brazilian E-Commerce dataset**.  
 The goal is to explore customer behavior, discover patterns in purchases, and build machine learning models that predict **customer review scores**.
@@ -7,7 +7,7 @@ The project applies **data cleaning, exploratory data analysis, feature engineer
 
 ---
 
-# 📊 Dataset
+## 📊 Dataset
 
 Dataset used: **Olist E-Commerce Dataset**
 
@@ -28,7 +28,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ---
 
-# 🎯 Project Objective
+## 🎯 Project Objective
 
 To **analyze customer satisfaction and predict review scores** based on:
 
@@ -39,28 +39,28 @@ To **analyze customer satisfaction and predict review scores** based on:
 
 ---
 
-# ⚙️ Project Pipeline
+## ⚙️ Project Pipeline
 
 The project follows a full **data science pipeline**:
 
-## 1️⃣ Data Cleaning
+### 1️⃣ Data Cleaning
 - Remove unnecessary columns
 - Handle missing values
 - Merge related columns
 
-## 2️⃣ Data Exploration
+### 2️⃣ Data Exploration
 - Analyze distributions and trends
 - Generate visualizations to understand customer behavior
 
-## 3️⃣ Data Preprocessing
+### 3️⃣ Data Preprocessing
 - Feature engineering
 - Prepare dataset for machine learning models
 
-## 4️⃣ Big Data Processing with PySpark
+### 4️⃣ Big Data Processing with PySpark
 - Create Spark session
 - Train multiple ML models
 
-## 5️⃣ Association Rule Mining
+### 5️⃣ Association Rule Mining
 Discover relationships between:
 - Payment methods
 - Delivery performance
@@ -68,7 +68,7 @@ Discover relationships between:
 
 ---
 
-# 📈 Exploratory Data Analysis
+## 📈 Exploratory Data Analysis
 
 Key insights explored in the project:
 
@@ -87,7 +87,7 @@ Correlation analysis was also performed to understand relationships between feat
 
 ---
 
-# 🔎 Association Rules
+## 🔎 Association Rules
 
 Association rule mining was used to discover interesting relationships between features.
 
@@ -104,7 +104,7 @@ These rules help understand **factors influencing customer satisfaction**.
 
 ---
 
-# 🤖 Machine Learning Models
+## 🤖 Machine Learning Models
 
 Several models were trained to predict **customer review scores**.
 
@@ -117,14 +117,14 @@ Several models were trained to predict **customer review scores**.
 
 ---
 
-# ⚠️ Unsuccessful Trials
+## ⚠️ Unsuccessful Trials
 
 - SVM model took very long time to train on the dataset.
 - Applying PCA for feature reduction resulted in lower accuracy.
 
 ---
 
-# 🚀 Future Work
+## 🚀 Future Work
 
 Possible improvements for the project:
 
@@ -136,7 +136,7 @@ Possible improvements for the project:
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
